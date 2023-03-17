@@ -1,4 +1,5 @@
 <template>
+
     <img v-if="image" :src="image" alt="bg">
     <div class="bg-dark"></div>
 
@@ -13,6 +14,7 @@
         </div>
 
     </div>
+
 </template>
 
 <script>
